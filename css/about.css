@@ -1,0 +1,20 @@
+.about-content{  
+    height: 100vh;
+    margin-top: 32px;
+    padding: 0px;
+    position: relative; 
+    overflow: hidden;
+  }
+  
+  .about-content::after {
+    content: "";
+    background-image: url("../image/home1.jpg");
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.25;
+    border-radius: 15px;
+    z-index: -1;
+  }
+ 
